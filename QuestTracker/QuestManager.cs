@@ -10,7 +10,7 @@ using System.Threading;
 using Grabacr07.KanColleWrapper;
 using Grabacr07.KanColleWrapper.Models;
 
-namespace Grabacr07.KanColleViewer.Plugins
+namespace QuestTracker
 {
     internal class QuestManager
     {
@@ -71,7 +71,7 @@ namespace Grabacr07.KanColleViewer.Plugins
             Assembly.GetExecutingAssembly()
                     .GetTypes()
                     .ToList()
-                    .Where(t => t.Namespace == "Grabacr07.KanColleViewer.Plugins.Trackers")
+                    .Where(t => t.Namespace == "QuestTracker.Trackers")
                     .ToList()
                     .ForEach(i => availableTrackers.Add((ITracker)Activator.CreateInstance(i)));
 

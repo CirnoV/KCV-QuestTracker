@@ -1,18 +1,27 @@
-﻿<UserControl x:Class="Grabacr07.KanColleViewer.Plugins.Views.Portal"
+﻿<UserControl x:Class="QuestTracker.Views.Portal"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
-             xmlns:viewModels="clr-namespace:Grabacr07.KanColleViewer.Plugins.ViewModels"
-             xmlns:controls="clr-namespace:MetroTrilithon.Controls;assembly=MetroTrilithon.Desktop"
+             xmlns:viewModels="clr-namespace:QuestTracker.ViewModels"
+             Background="{DynamicResource ThemeBrushKey}"
+             Foreground="{DynamicResource ActiveForegroundBrushKey}"
              mc:Ignorable="d"
              d:DesignHeight="300"
              d:DesignWidth="600"
              d:DataContext="{d:DesignInstance viewModels:PortalViewModel}">
 
-    <StackPanel Orientation="Vertical" Margin="3,0,3,3">
-        <TextBlock Padding="8,4,4,0" Foreground="LightGray" FontSize="14" Text="※任務（クエスト）画面を開いた際に更新されます。" />
+	<UserControl.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="../Styles/DefaultStyle.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+		</ResourceDictionary>
+	</UserControl.Resources>
+
+	<StackPanel Orientation="Vertical" Margin="3,0,3,3">
+		<TextBlock Padding="8,4,4,0" Foreground="LightGray" FontSize="14" Text="※임무 (퀘스트) 화면을 열 때 업데이트됩니다." />
         <ItemsControl Padding="8" Foreground="LightGray" ItemsSource="{Binding QuestProcessCollection}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>

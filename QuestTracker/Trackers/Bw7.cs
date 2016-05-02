@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Grabacr07.KanColleViewer.Plugins.Trackers
+namespace QuestTracker.Trackers
 {
     /// <summary>
     ///     敵北方艦隊主力を撃滅せよ！

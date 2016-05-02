@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TaskCounter.Models;
 
-namespace Grabacr07.KanColleViewer.Plugins.Models.Raw
+namespace QuestTracker.Models.Raw
 {
     public static class CommonTypeExtensions
     {

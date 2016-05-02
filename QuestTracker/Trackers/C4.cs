@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Grabacr07.KanColleViewer.Plugins.Trackers
+namespace QuestTracker.Trackers
 {
     /// <summary>
     ///     大規模演習

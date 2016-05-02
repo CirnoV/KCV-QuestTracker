@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Grabacr07.KanColleViewer.Plugins.Trackers
+namespace QuestTracker.Trackers
 {
     /// <summary>
     ///     南西諸島海域の制海権を握れ！

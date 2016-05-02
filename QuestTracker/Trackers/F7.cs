@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Grabacr07.KanColleViewer.Plugins.Trackers
+namespace QuestTracker.Trackers
 {
     /// <summary>
     ///     装備「開発」集中強化！

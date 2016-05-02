@@ -1,10 +1,10 @@
 ﻿using System.ComponentModel.Composition;
 using Grabacr07.KanColleViewer.Composition;
-using Grabacr07.KanColleViewer.Plugins.ViewModels;
-using Grabacr07.KanColleViewer.Plugins.Views;
+using QuestTracker.ViewModels;
+using QuestTracker.Views;
 using Grabacr07.KanColleWrapper;
 
-namespace Grabacr07.KanColleViewer.Plugins
+namespace QuestTracker
 {
     [Export(typeof (IPlugin))]
     [Export(typeof (ITool))]

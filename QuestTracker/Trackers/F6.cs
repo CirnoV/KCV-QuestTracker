@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Grabacr07.KanColleViewer.Plugins.Trackers
+namespace QuestTracker.Trackers
 {
     /// <summary>
     ///     新造艦「建造」指令

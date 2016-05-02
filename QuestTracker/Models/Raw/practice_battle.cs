@@ -1,4 +1,4 @@
-﻿namespace Grabacr07.KanColleViewer.Plugins.Models.Raw
+﻿namespace QuestTracker.Models.Raw
 {
     /// <summary>
     ///     演習-昼戦

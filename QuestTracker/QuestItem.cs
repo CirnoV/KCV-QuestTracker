@@ -1,7 +1,7 @@
 ﻿using System;
 using Amemiya.Extensions;
 
-namespace Grabacr07.KanColleViewer.Plugins
+namespace QuestTracker
 {
     public struct QuestItem
     {

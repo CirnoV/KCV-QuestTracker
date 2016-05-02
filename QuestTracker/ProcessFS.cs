@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Windows;
 using System.Xml.Linq;
 
-namespace Grabacr07.KanColleViewer.Plugins
+namespace QuestTracker
 {
     [SuppressMessage("ReSharper", "AssignNullToNotNullAttribute")]
     internal class QuestFS

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Amemiya.Extensions;
 
-namespace Grabacr07.KanColleViewer.Plugins.Trackers
+namespace QuestTracker.Trackers
 {
     /// <summary>
     ///     あ号作戦

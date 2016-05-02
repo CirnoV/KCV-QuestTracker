@@ -1,4 +1,4 @@
-﻿namespace Grabacr07.KanColleViewer.Plugins.Models.Raw
+﻿namespace QuestTracker.Models.Raw
 {
     public class map_start_next
     {

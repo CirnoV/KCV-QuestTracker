@@ -1,6 +1,6 @@
 ﻿using System.Windows.Controls;
 
-namespace Grabacr07.KanColleViewer.Plugins.Views
+namespace QuestTracker.Views
 {
     /// <summary>
     ///     Portal.xaml の相互作用ロジック

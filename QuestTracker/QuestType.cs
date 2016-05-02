@@ -1,4 +1,4 @@
-﻿namespace Grabacr07.KanColleViewer.Plugins
+﻿namespace QuestTracker
 {
     public enum QuestType
     {

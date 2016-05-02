@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Grabacr07.KanColleViewer.Plugins
+namespace QuestTracker
 {
     internal interface ITracker
     {

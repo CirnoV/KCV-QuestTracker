@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Reactive.Linq;
 using Amemiya.Extensions;
-using Grabacr07.KanColleViewer.Plugins.Models.Raw;
+using QuestTracker.Models.Raw;
 using Grabacr07.KanColleWrapper;
 using Grabacr07.KanColleWrapper.Models.Raw;
 using TaskCounter.Models;
 using TaskCounter.Models.Raw;
 
-namespace Grabacr07.KanColleViewer.Plugins
+namespace QuestTracker
 {
     internal class ApiEvent
     {

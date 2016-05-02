@@ -3,7 +3,7 @@ using System.Linq;
 using Grabacr07.KanColleWrapper;
 using Livet;
 
-namespace Grabacr07.KanColleViewer.Plugins.ViewModels
+namespace QuestTracker.ViewModels
 {
     public class PortalViewModel : ViewModel
     {
