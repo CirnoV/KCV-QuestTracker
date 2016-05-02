@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bw5";
 
-        string ITracker.Name => "海上護衛戦";
+        string ITracker.Name => "해상호위전";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -57,7 +57,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"잠수함 {count} / {max_count}";
         }
 
         public string SerializeData()

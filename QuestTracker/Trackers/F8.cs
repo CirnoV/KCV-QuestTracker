@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "F8";
 
-        string ITracker.Name => "艦娘「建造」艦隊強化！";
+        string ITracker.Name => "칸무스 건조 함대강화";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"칸무스 건조 {count} / {max_count}";
         }
 
         public string SerializeData()

@@ -26,7 +26,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bw8";
 
-        string ITracker.Name => "敵東方中枢艦隊を撃破せよ！";
+        string ITracker.Name => "적 동방 중추함대 격멸";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -68,7 +68,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= 0 ? "完成" : "0 / 1";
+            return count >= 0 ? "완료" : "4-2 보스 승리 0 / 1";
         }
 
         public string SerializeData()

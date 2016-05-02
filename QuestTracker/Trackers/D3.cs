@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "D3";
 
-        string ITracker.Name => "「遠征」を10回成功させよう！";
+        string ITracker.Name => "원정 10회 성공";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"원정 성공 {count} / {max_count}";
         }
 
         public string SerializeData()

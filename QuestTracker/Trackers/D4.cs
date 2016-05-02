@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "D4";
 
-        string ITracker.Name => "大規模遠征作戦、発令！";
+        string ITracker.Name => "대규모 원정작전 발령";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"원정 성공 {count} / {max_count}";
         }
 
         public string SerializeData()

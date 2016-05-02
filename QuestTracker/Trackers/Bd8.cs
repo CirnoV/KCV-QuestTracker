@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bd8";
 
-        string ITracker.Name => "敵潜水艦を制圧せよ！";
+        string ITracker.Name => "적 잠수함 제압";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -57,7 +57,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"잠수함 {count} / {max_count}";
         }
 
         public string SerializeData()

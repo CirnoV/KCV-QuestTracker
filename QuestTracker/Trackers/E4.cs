@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "E4";
 
-        string ITracker.Name => "艦隊酒保祭り！";
+        string ITracker.Name => "함대 PX 축제!";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"보급 {count} / {max_count}";
         }
 
         public string SerializeData()

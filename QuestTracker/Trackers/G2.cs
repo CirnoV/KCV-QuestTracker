@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "G2";
 
-        string ITracker.Name => "艦の「近代化改修」を実施せよ！";
+        string ITracker.Name => "군함의 근대화 개수 실시";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"근대화 개수 {count} / {max_count}";
         }
 
         public string SerializeData()

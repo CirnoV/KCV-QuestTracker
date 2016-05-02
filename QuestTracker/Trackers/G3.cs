@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "G3";
 
-        string ITracker.Name => "「近代化改修」を進め、戦備を整えよ！";
+        string ITracker.Name => "근대화개수를 진행하여 군비를 갖춰라";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"근대화 개수 {count} / {max_count}";
         }
 
         public string SerializeData()

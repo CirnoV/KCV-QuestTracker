@@ -17,7 +17,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bd1";
 
-        string ITracker.Name => "敵艦隊を撃破せよ！";
+        string ITracker.Name => "적 함대 격파!";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -50,7 +50,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return finished ? "完成" : "0 / 1";
+            return finished ? "완료" : "승리 0 / 1";
         }
 
         public string SerializeData()

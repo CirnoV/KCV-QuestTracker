@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bd6";
 
-        string ITracker.Name => "敵輸送船団を叩け！";
+        string ITracker.Name => "적 수송선단을 쳐라";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -57,7 +57,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"보급함 {count} / {max_count}";
         }
 
         public string SerializeData()

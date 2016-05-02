@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "D11";
 
-        string ITracker.Name => "南方への鼠輸送を継続実施せよ!";
+        string ITracker.Name => "남방쥐수송을 계속 실시하라!";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -54,7 +54,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"37번 or 38번 원정 성공 {count} / {max_count}";
         }
 
         public string SerializeData()

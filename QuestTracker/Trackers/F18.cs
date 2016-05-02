@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "F18";
 
-        string ITracker.Name => "装備の改修強化";
+        string ITracker.Name => "장비의 개수강화";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"장비 개수 {count} / {max_count}";
         }
 
         public string SerializeData()

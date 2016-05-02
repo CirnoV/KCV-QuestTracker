@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "D9";
 
-        string ITracker.Name => "南方への輸送作戦を成功させよ！";
+        string ITracker.Name => "남쪽으로 수송 작전을 성공시켜라!";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -54,7 +54,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"37번 or 38번 원정 성공 {count} / {max_count}";
         }
 
         public string SerializeData()

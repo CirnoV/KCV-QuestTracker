@@ -26,7 +26,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bw9";
 
-        string ITracker.Name => "南方海域珊瑚諸島沖の制空権を握れ！";
+        string ITracker.Name => "남방해역 산호제도 앞바다의 제공권을 쥐어라!";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -68,7 +68,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"5-2 보스 승리 {count} / {max_count}";
         }
 
         public string SerializeData()

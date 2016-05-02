@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "F12";
 
-        string ITracker.Name => "資源の再利用";
+        string ITracker.Name => "자원의 재활용";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"장비 폐기 {count} / {max_count}";
         }
 
         public string SerializeData()

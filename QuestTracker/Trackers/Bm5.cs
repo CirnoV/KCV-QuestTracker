@@ -26,7 +26,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bm5";
 
-        string ITracker.Name => "海上護衛強化月間";
+        string ITracker.Name => "해상호위강화 월간 - 월간임무";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -68,7 +68,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"1-5 보스 A승리 {count} / {max_count}";
         }
 
         public string SerializeData()

@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bd3";
 
-        string ITracker.Name => "敵艦隊を10回邀撃せよ！";
+        string ITracker.Name => "적 함대 10회 요격";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -51,7 +51,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"전투 {count} / {max_count}";
         }
 
         public string SerializeData()

@@ -30,7 +30,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bd7";
 
-        string ITracker.Name => "南西諸島海域の制海権を握れ！";
+        string ITracker.Name => "남서제도해역 제해권 획득";
 
         QuestType ITracker.Type => QuestType.Daily;
 
@@ -72,7 +72,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"2-1 ~ 2-5 보스 승리 {count} / {max_count}";
         }
 
         public string SerializeData()

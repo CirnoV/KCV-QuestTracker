@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "C4";
 
-        string ITracker.Name => "大規模演習";
+        string ITracker.Name => "대규모연습";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -54,7 +54,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"연습전 승리 {count} / {max_count}";
         }
 
         public string SerializeData()

@@ -18,7 +18,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bw4";
 
-        string ITracker.Name => "ろ号作戦";
+        string ITracker.Name => "로호작전";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -57,7 +57,7 @@ namespace QuestTracker.Trackers
 
         public string GetDisplayProcess()
         {
-            return count >= max_count ? "完成" : $"{count} / {max_count}";
+            return count >= max_count ? "완료" : $"보급함 {count} / {max_count}";
         }
 
         public string SerializeData()

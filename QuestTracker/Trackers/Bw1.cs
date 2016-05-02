@@ -54,7 +54,7 @@ namespace QuestTracker.Trackers
 
         string ITracker.WikiIndex => "Bw1";
 
-        string ITracker.Name => "あ号作戦";
+        string ITracker.Name => "아호작전";
 
         QuestType ITracker.Type => QuestType.Weekly;
 
@@ -110,11 +110,11 @@ namespace QuestTracker.Trackers
         public string GetDisplayProcess()
         {
             if (process_combat >= 36 && process_combat_s >= 6 && process_boss >= 24 && process_boss_win >= 12)
-                return "完成";
+                return "완료";
 
             return
-                $"出撃 {process_combat}/36, S勝 {process_combat_s}/6," +
-                $" ボス {process_boss}/24, ボス勝 {process_boss_win}/12";
+                $"출격 {process_combat}/36, S승리 {process_combat_s}/6," +
+                $" 보스 {process_boss}/24, 보스 승리 {process_boss_win}/12";
         }
 
         public string SerializeData()
